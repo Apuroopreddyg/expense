@@ -47,7 +47,7 @@ Edit
 🚀 Getting Started
 
 1. Clone the repository:
-  git clone https://github.com/your-username/expense-tracker-admin.git
+  git clone https://github.com/Username/expense-tracker-admin.git
   cd expense-tracker-admin
 2. Install dependencies:
   Backend:
