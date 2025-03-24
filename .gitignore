@@ -1,0 +1,14 @@
+/frontend/.gitignore
+/backend/.gitignore
+
+# Ignore node_modules everywhere
+node_modules/
+
+# Ignore .env files everywhere
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore dist/ folders globally
+public/

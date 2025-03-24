@@ -1,0 +1,65 @@
+.table-container {
+    height: 240px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+/* Sticky table header */
+.table-container thead th {
+    position: sticky;
+    top: 0;
+    background-color: #4486c7;
+    z-index: 2;
+}
+
+/* Scrollbar styles */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #a1a1a1;
+  }
+  
+
+/* Optional styling improvements */
+.container {
+    max-width: 1200px;
+    position: relative;
+    z-index: 3;
+    padding: 5px;
+}
+
+h2 {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: aqua;
+}
+
+h4 {
+    margin-top: 30px;
+    font-weight: 600;
+    color: aquamarine;
+}
+
+.adminform {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+button {
+    min-width: 100px;
+}
